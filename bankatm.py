@@ -7,7 +7,7 @@ class BankATM:
         print("Your balance is 200000")
 
     def withdrawal(self,amount):
-        new_amount = 50000 - amount
+        new_amount = 200000 - amount
         print("You have withdrawn ₹"+str(amount)+ ", Your balance is" + " ₹"+str(new_amount))
 
 
